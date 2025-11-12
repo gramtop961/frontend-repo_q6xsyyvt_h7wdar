@@ -90,7 +90,7 @@ function App() {
 
       <section className="bg-gradient-to-br from-blue-50 to-indigo-50 border-b">
         <div className="max-w-6xl mx-auto px-4 py-16">
-          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">Launch your dropshipping store fast</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold text-gray-900 tracking-tight">Vedeep Creation</h1>
           <p className="mt-4 text-lg text-gray-600 max-w-2xl">Add curated products, accept orders, and ship from suppliers without holding inventory.</p>
 
           <div className="mt-6 flex gap-3">
@@ -135,7 +135,7 @@ function App() {
 
       <CartDrawer open={cartOpen} items={cart} onClose={() => setCartOpen(false)} onCheckout={checkout} />
 
-      <footer className="border-t py-10 text-center text-sm text-gray-500">© {new Date().getFullYear()} SwiftShip. All rights reserved.</footer>
+      <footer className="border-t py-10 text-center text-sm text-gray-500">© {new Date().getFullYear()} Vedeep Creation. All rights reserved.</footer>
     </div>
   )
 }

@@ -8,7 +8,7 @@ export default function Navbar({ cartCount, onCartClick }) {
           <div className="h-9 w-9 rounded bg-gradient-to-tr from-blue-600 to-indigo-500 flex items-center justify-center text-white">
             <Store size={18} />
           </div>
-          <span className="text-xl font-bold text-gray-800">SwiftShip</span>
+          <span className="text-xl font-bold text-gray-800">Vedeep Creation</span>
         </a>
 
         <div className="flex items-center gap-3">
